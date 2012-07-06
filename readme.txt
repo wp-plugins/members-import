@@ -51,7 +51,7 @@ There are no additional options available at the moment, but if you want to add 
 * Upload `members-import` to the `/wp-content/plugins/` directory.
 * Activate the plugin through the 'Plugins' menu in WordPress.
 * You will see a new 'Members Import' option under the existing 'Users' menu area.
-* data in csv file should be delimitted by double quote(").
+* Data in csv file should be delimitted by double quote(").
 
 == Frequently Asked Questions ==
 
