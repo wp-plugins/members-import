@@ -181,7 +181,7 @@ function memberimport_page() {
 			</tr>
 			<tr>
 				<th scope="row"></th>
-				<td>1: Fields name should be at the top line of the CSV file with </td>
+				<td>1: Fields name should be at the top line in CSV file separated by comma(,) and delimitted by double quote(").</td>
 			</tr>
 		</table>
 	</form>
