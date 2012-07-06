@@ -1,6 +1,6 @@
 === Members Import ===
 Contributors: manishkrag
-Tags: csv, user, import, users, member, members, batch, batch import, batch import members, batch import users, one click user creation, import csv, import from csv, user registration, wordpress members import,wordpress csv import, wordpress users import
+Tags: csv, user, import, users, member, members, batch, batch import, batch import members, batch import users, one click user creation, import csv, import from csv, user registration, wordpress members import,wordpress csv import, wordpress users import, buddypress, buddypress members import
 Stable tag: 1.0
 Tested up to: 3.4
 
@@ -9,6 +9,7 @@ This plug-in allows you to batch import of users/members taken from an uploaded 
 == Description ==
 
 This allows you to batch import of users/members taken from an uploaded CSV file.
+
 It will add users/members with basic information, including firstname, lastname, username, password and email address.
 Each user who is added will be a 'subscriber' if value not provided in csv file, and be able to login to your site.
 
@@ -44,7 +45,7 @@ There are no additional options available at the moment, but if you want to add 
 * Allows setting user role.
 * Sends new user notification (if the option is selected)
 * Shows password nag on user login (if the option is selected)
-* If username already present in database then this user will not register thus we are avoiding the multi use of same username.
+* If username already present in database then this user will not register, in this way we can avoid the multi use of same username.
 
 == Installation ==
 
