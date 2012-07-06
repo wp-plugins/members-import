@@ -171,7 +171,7 @@ function memberimport_page() {
 					<td>
 						<label for="password_nag">
 							<input id="password_nag" name="password_nag" type="checkbox" value="1" />
-							Show password nag on new users signon
+							Show password nag on new users signon.
 						</label>
 					</td>
 				</tr>
