@@ -17,24 +17,24 @@ You can also choose to send a notification to the new users and to display passw
 There are no additional options available at the moment, but if you want to add a bunch of users in one go, this will do this for you quickly.
 
 <b>Basic Fields:</b>
-user_login
-user_pass
-user_email 
-user_url 
-user_nicename
-display_name 
-user_registered 
-first_name
-last_name 
-nickname 
-description
-rich_editing 
-comment_shortcuts 
-admin_color
-use_ssl 
-show_admin_bar_front 
-show_admin_bar_admin
-role
+<br />user_login
+<br />user_pass
+<br />user_email 
+<br />user_url 
+<br />user_nicename
+<br />display_name 
+<br />user_registered 
+<br />first_name
+<br />last_name 
+<br />nickname 
+<br />description
+<br />rich_editing 
+<br />comment_shortcuts 
+<br />admin_color
+<br />use_ssl 
+<br />show_admin_bar_front 
+<br />show_admin_bar_admin
+<br />role
 
 == Features ==
 
