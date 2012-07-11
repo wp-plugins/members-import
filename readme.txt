@@ -37,6 +37,9 @@ There are no additional options available at the moment, but if you want to add 
 <br />show_admin_bar_admin
 <br />role
 
+**Author's Other Plugins:** 
+<br /> <a href="http://wordpress.org/extend/plugins/ajaxify-wordpress-site/" target="_blank">Ajaxify WordPress Site(AWS)</a>
+
 == Features ==
 
 * Create users/members in wordpress site in a single click.
