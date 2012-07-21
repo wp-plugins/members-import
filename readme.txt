@@ -1,5 +1,6 @@
 === Members Import ===
 Contributors: manishkrag
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=manishkrag@yahoo.co.in&item_name=Members%20Import%20&return=http://wordpress.org/extend/plugins/members-import/
 Tags: csv, user, import, users, member, members, batch, batch import, batch import members, batch import users, one click user creation, import csv, import from csv, user registration, wordpress members import,wordpress csv import, wordpress users import, buddypress, buddypress members import
 Stable tag: 1.0
 Tested up to: 3.4
