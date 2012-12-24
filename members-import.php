@@ -5,7 +5,8 @@ Plugin Name: Members Import
 Plugin URI: 
 Description: Allows the batch importation of users/members via an uploaded CSV file.
 Author: Manish Kumar Agarwal
-Version: 1.0
+Author URI: http://www.youngtechleads.com
+Version: 1.1
 Author Emailid: manishkrag@yahoo.co.in/manisha@mindfiresolutions.com 
 */
 
@@ -38,6 +39,7 @@ function memberimport_page() {
 	if ($_POST['mode'] == "submit") {
 	
 		$arr_rows = file($_FILES['csv_file']['tmp_name']);
+		$login_username        = isset( $_POST['login_username'] ) ? $_POST['login_username'] : false;
 		$password_nag          = isset( $_POST['password_nag'] ) ? $_POST['password_nag'] : false;
 		$new_member_notification = isset( $_POST['new_member_notification'] ) ? $_POST['new_member_notification'] : false;
 		
@@ -75,7 +77,7 @@ function memberimport_page() {
 				$userdata = $usermeta = array();
 				
 				foreach ( $arr_values as $ckey => $cvalue ) {
-					$column_name = $headers[$ckey];
+					$column_name = trim( $headers[$ckey] );
 					$cvalue = trim( $cvalue );
 
 					if ( empty( $cvalue ) )
@@ -97,9 +99,12 @@ function memberimport_page() {
 				
 				$userdata['user_login'] = strtolower($userdata['user_login']);
 				
+				if ( ( $login_username ) && ( $userdata['user_email'] == '' ) )
+					$userdata['user_email'] = $userdata['user_login'];
+				else if ( ( $login_username ) && ( $userdata['user_login'] == '' ) )
+					$userdata['user_login'] = $userdata['user_email'];
+					
 				$user_id = wp_insert_user( $userdata );
-				
-				//exit;
 				
 				// Is there an error?
 				if ( is_wp_error( $user_id ) ) {
@@ -157,6 +162,15 @@ function memberimport_page() {
 
 		<br/>
 		<table>
+			<tr valign="top">
+				<th scope="row">Login with email ID: </th>
+				<td>
+					<label for="login_username">
+						<input id="login_username" name="login_username" type="checkbox" value="1" />
+						Username and e-mail ID are same.
+					</label>
+				</td>
+			</tr>
 			<tr valign="top">
 				<th scope="row">Notification: </th>
 				<td>
