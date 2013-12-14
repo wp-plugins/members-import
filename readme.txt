@@ -3,7 +3,7 @@ Contributors: manishkrag
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=manishkrag@yahoo.co.in&item_name=Members%20Import%20&return=http://www.youngtechleads.com/thanks/
 Tags: csv, user, import, users, member, members, batch, batch import, batch import members, batch import users, one click user creation, import csv, import from csv, user registration, wordpress members import,wordpress csv import, wordpress users import, buddypress, buddypress members import
 Stable tag: 1.1
-Tested up to: 3.7.1
+Tested up to: 3.8
 
 This plug-in allows you to batch import of users/members taken from an uploaded CSV file.
 
