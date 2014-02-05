@@ -27,7 +27,7 @@ There are no additional options available at the moment, but if you want to add 
 <br />role
 
 **Pro version plugin name** 
-<br /> BuddyPress Members Import
+<br /> BuddyPress Members Import http://www.youngtechleads.com/buddypress-members-import/
 
 == Features ==
 
