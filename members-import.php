@@ -4,10 +4,10 @@
 Plugin Name: Members Import
 Plugin URI: 
 Description: Allows the batch importation of users/members via an uploaded CSV file.
-Author: Manish Kumar Agarwal
+Author: Soumi Das
 Author URI: http://www.youngtechleads.com
 Version: 1.1
-Author Emailid: manishkrag@yahoo.co.in/manisha@mindfiresolutions.com 
+Author Emailid: soumi.das1990@gmail.com/skype:soumibgb
 */
 
 
